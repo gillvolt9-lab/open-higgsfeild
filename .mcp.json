@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "open-higgsfeild": {
+      "command": "node",
+      "args": ["/Users/paramyg/open-higgsfeild/mcp-server.js"]
+    }
+  }
+}

@@ -3,6 +3,7 @@
   "displayName": "Open Higgsfeild",
   "version": "1.0.0",
   "private": true,
+  "main": "electron/main.js",
   "type": "module",
   "description": "Open Higgsfeild — AI studio with green and black theme and MCP support for Claude and ChatGPT",
   "scripts": {
@@ -11,7 +12,8 @@
     "preview": "vite preview",
     "mcp": "node mcp-server.js",
     "mcp:http": "node mcp-server.js --http",
-    "start": "node mcp-server.js"
+    "start": "node mcp-server.js",
+    "electron": "electron ."
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -19,6 +21,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
+    "electron": "^45.3.4",
     "vite": "^5.4.0"
   }
 }

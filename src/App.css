@@ -1,19 +1,19 @@
 /* Open Higgsfeild — Higgsfield-accurate dark creative suite */
 :root {
-  --bg: #000000;
-  --surface: #0a0a0a;
-  --panel: rgba(10, 10, 10, 0.6);
-  --panel-border: rgba(0, 255, 65, 0.18);
-  --green: #00ff41;
-  --green-dim: rgba(0, 255, 65, 0.35);
-  --green-dark: #003300;
-  --green-glow: rgba(0, 255, 65, 0.15);
-  --green-glow-strong: rgba(0, 255, 65, 0.3);
+  --bg: #050505;
+  --surface: #0d0d0d;
+  --panel: rgba(13, 13, 13, 0.85);
+  --panel-border: rgba(0, 255, 65, 0.35);
+  --green: #0aff5a;
+  --green-dim: rgba(0, 255, 65, 0.45);
+  --green-dark: #002200;
+  --green-glow: rgba(0, 255, 65, 0.25);
+  --green-glow-strong: rgba(0, 255, 65, 0.45);
   --text: #ffffff;
-  --text-dim: rgba(255, 255, 255, 0.55);
-  --muted: rgba(255, 255, 255, 0.25);
-  --border: rgba(0, 255, 65, 0.22);
-  --border-dim: rgba(0, 255, 65, 0.08);
+  --text-dim: rgba(255, 255, 255, 0.75);
+  --muted: rgba(255, 255, 255, 0.4);
+  --border: rgba(0, 255, 65, 0.4);
+  --border-dim: rgba(0, 255, 65, 0.18);
   --danger: #ff0033;
   --radius: 12px;
   --radius-sm: 6px;
@@ -48,14 +48,14 @@ html, body, #root, #app {
 
 .scanlines {
   background:
-    linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
-    linear-gradient(90deg, rgba(255, 0, 0, 0.02), rgba(0, 255, 0, 0.015), rgba(0, 0, 255, 0.02));
+    linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.12) 50%),
+    linear-gradient(90deg, rgba(255, 0, 0, 0.01), rgba(0, 255, 0, 0.008), rgba(0, 0, 255, 0.01));
   background-size: 100% 4px, 3px 100%;
-  opacity: 0.35;
+  opacity: 0.2;
 }
 
 .vignette {
-  background: radial-gradient(circle at 50% 50%, rgba(0, 30, 0, 0.35) 0%, rgba(0, 0, 0, 0.85) 70%);
+  background: radial-gradient(circle at 50% 50%, rgba(0, 30, 0, 0.15) 0%, rgba(0, 0, 0, 0.6) 70%);
 }
 
 /* ---- Sidebar ---- */
@@ -661,4 +661,4 @@ html, body, #root, #app {
 ::-webkit-scrollbar { width: 8px; height: 8px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--green-dark); border: 1px solid var(--border-dim); }
-::-webkit-scrollbar-thumb:hover { background: var(--green-dim); }
+::-webkit-scrollbar-thumb:hover { background: var(--green); }
